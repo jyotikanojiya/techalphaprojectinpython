@@ -7,5 +7,5 @@ def print_diamond(n):
         print(" " * (n - i-1) + "*" * (2 * i - 1))
 
 
-n = 6
+n = int(input("enter the number"))
 print_diamond(n)
